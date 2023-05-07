@@ -17,3 +17,11 @@ output "varibale_list_map"{
 	value=var.content_list[1]
 
 }
+
+output "ec2_ami"{
+	value=var.aws_ec2_object
+}
+
+output "json_var_output"{
+	value=var.instances
+}
